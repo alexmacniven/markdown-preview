@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# markdown-preview
+This repository hosts a solution to the FCC Front End Libraries Projects challenge; Markdown Previewer
+>>>>>>> d3f2fde3c1ab50e13b1cdaaf7cf6e1d7c89ef8f0
