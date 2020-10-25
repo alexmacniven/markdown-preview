@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+/* html, body {
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Child-Container {
+    flex: 1 100%;
+    margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Editor-Text {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    resize: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#App-Container {
+    display: flex;
+    flex-flow: row column;
+    min-height: 100%;
+    background-color: aqua;
 }
 
-.App-link {
-  color: #61dafb;
+#Editor-Container {
+    background-color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Preview-Container {
+    background-color: yellow;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
+
+@media all and (min-width:600px){
+    .Child-Container {
+        flex: 1 50%;
+    }
+} */
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.Container {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.Container div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.Container div textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    box-sizing: border-box;
+}
+
+/* @media all and (min-width: 800px) {
+    .Container {
+        flex-flow: row wrap;
+    }
+} */
