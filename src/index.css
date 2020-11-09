@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital@1&display=swap');
 
 .Container {
   min-height: 100%;
@@ -20,11 +20,16 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.Container #preview code {
+  font-family: 'Roboto Mono', monospace;  
+}
+
 .Container div textarea {
   min-width: 100%;
   min-height: 100%;
   resize: none;
   box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #root, html, body {
