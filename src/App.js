@@ -25,7 +25,7 @@ First, have the required tools;
 
 Then you're ready to clone the project;
 \`\`\`bash
-git clone ...
+git clone https://github.com/alexmacniven/markdown-preview.git
 \`\`\`
 
 Launch a development build;
